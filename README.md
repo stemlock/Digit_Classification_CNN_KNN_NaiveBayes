@@ -32,6 +32,6 @@ In this project, the K-Nearest Neighbors (KNN) and Naive Bayes (NB) machine lear
 ## Project Outcomes
 It was determined that the following constraints led to the best performing model in terms of prediction accuracy:
 - 5-Nearest Neighbor Model
-- Use of the full training data set
-- Deskewed data
-- Guassian blurring of data with radis = 1, sigma = 1.2
+- Use of the full training data set (60,000 digits)
+- Deskewed digits
+- Guassian blurring of data with radius = 1, sigma weighting = 1.2
