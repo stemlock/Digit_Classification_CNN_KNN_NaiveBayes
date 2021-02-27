@@ -48,12 +48,12 @@ The best performing deep learning model had the following constraints:
 	- 2 by 2 MaxPooling
 	- 3rd Fully Connected Layer with 50 nodes, relu activation
 	- 4th Fully Connected Layer with 10 nodes, softmax activation
-- Dropout of 0.5
-- Stochastic gradient descent with batch size of 100
+- Dropout of 0.1
+- Stochastic gradient descent with batch size of 50
 - Learning rate of 0.01
-- 20 epochs
+- 50 epochs
 
-The final prediction accuracy score reached for the CNN model was ~98.4%.
+The final prediction accuracy score reached for the CNN model was ~98.6%.
 
 
 ## Tools Used
